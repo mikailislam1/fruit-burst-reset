@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/3caf4bf2e8.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                'button-primary': '#F85559',
               }
             }
           }
@@ -30,16 +32,16 @@
         }
     </style>
 </head>
-<body>
-    <header>
+<body class="font-lato">
+    <header class="">
         <!-- navbar section start -->
         <nav>
 
         </nav>
         <!-- navbar section end -->
         <!-- banner section start -->
-        <section>
-
+        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-10">
+          
         </section>
         <!-- banner section end -->
     </header>
@@ -57,8 +59,28 @@
         <!-- team section end -->
     </main>
 
-    <footer>
-
-    </footer>
+      <footer class="footer footer-center py-10 bg-[#121212] text-white cursor-pointer">
+        <div class="flex">
+          <img src="images/logo.png" alt="">
+          <h2 class="text-3xl font-bold">Fruit Burst</h2>
+        </div>
+        <nav class="flex justify-around flex-wrap gap-8 px-10">
+          <a href="">Home</a>
+          <a class="">About us</a> 
+          <a class="">Shop</a> 
+          <a class="">All Fruits</a> 
+          <a class="">Support</a>
+          <a href="">My Account</a>
+        </nav> 
+        <nav>
+          <div class="grid grid-flow-col gap-4">
+            <a><i class="fa-brands fa-twitter"></i></a> 
+            <a><i class="fa-brands fa-facebook"></i></a> 
+            <a><i class="fa-brands fa-youtube"></i></a>
+            <a><i class="fa-brands fa-linkedin-in"></i></a>
+            <a><i class="fa-brands fa-instagram"></i></a>
+            <a><i class="fa-brands fa-apple"></i></a>
+        </nav> 
+      </footer>
 </body>
 </html>
