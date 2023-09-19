@@ -34,11 +34,47 @@
     </style>
 </head>
 <body class="font-lato">
-    <header class="">
+    <header>
         <!-- navbar section start -->
+        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-0 lg:my-10">
+          <nav class="navbar flex-row-reverse lg:flex-row justify-between items-center bg-white lg:bg-[#F85559] py-5 rounded-[600px]">
+            <div class="navbar-end lg:navbar-start lg:hidden">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle">
+                  <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content  mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-auto lg:w-52">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Shop</a></li>
+                  <li><a href="">All fruit</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-start hidden lg:flex">
+              <ul class="flex gap-5 text-white">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">All fruit</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-start lg:navbar-center flex items-center">
+            <img src="images/logo.png" alt="logo">
+            <a class="normal-case text-2xl lg:text-3xl font-extrabold">Fruit Burst</a>
+          </div>
+          <div class="hidden lg:flex relative ">
+            <input type="text" placeholder="Search here" class="input input-bordered w-24 md:w-auto rounded-[600px]" />
+            <button class="btn btn-ghost btn-circle absolute right-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </nav>
+        </section>
         <!-- navbar section end -->
         <!-- banner section start -->
-        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-10">
+        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-0 lg:my-10">
           <div class="carousel relative w-full ">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="images/banner1.png" class="w-full" />
@@ -87,15 +123,15 @@
             <div  class="flex justify-center gap-5  lg:absolute bg-white left-10 xl:left-40 -bottom-20">
               <div class="text-center">
                 <img src="images/fruit1.png" alt="fruit1">
-                <p class="font-medium">Strawberry</p>
+                <p class="font-medium">Grape</p>
               </div>
               <div class="text-center">
                 <img src="images/fruit2.png" alt="fruit1">
-                <p class="font-medium">Strawberry</p>
+                <p class="font-medium">Orange</p>
               </div>
               <div class="text-center">
                 <img src="images/fruit3.png" alt="fruit1">
-                <p class="font-medium">Strawberry</p>
+                <p class="font-medium">Mango</p>
               </div>
               <div class="text-center">
                 <img src="images/fruit4.png" alt="fruit1">
@@ -103,7 +139,7 @@
               </div>
               <div class="text-center">
                 <img src="images/fruit5.png" alt="fruit1">
-                <p class="font-medium">Strawberry</p>
+                <p class="font-medium">Vedana</p>
               </div>
             </div>
           </div>
@@ -114,7 +150,7 @@
 
     <main>
         <!-- deal section start -->
-        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-10">
+        <section class="max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-0 lg:my-10">
           <div class="flex flex-col lg:flex-row items-center text-center lg:justify-between gap-20">
             <div class="space-y-3">
               <h2 class="text-4xl font extra-bold text-[#121212]">Deal of the day</h2>
@@ -325,7 +361,7 @@
         </section>
         <!-- deal section end -->
         <!-- team section start -->
-        <section class=" max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-10 ">
+        <section class=" max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20 py-5 my-0 lg:my-10 ">
            <div class="items-center justify-center bg-hero-pattern bg-no-repeat bg-cover  opacity-90 space-y-3 py-5 rounded-lg">
             <div class="text-center py-8">
               <h2 class="text-2xl lg:text-4xl font-bold text-white mb-5">Meet the team section</h2>
